@@ -33,7 +33,7 @@ All the data is external and publicly available. Within “Data” in this [OneD
 ## Master Script Instructions 
 There are two master scripts. 
 1. ```morocco_ie_master``` loads all packages and functions required to run the code. In line 5, the reviewer should change the directory paths. 
-2. ```morocco_viirs_master``` Within the sub-folder “Code”, the master script runs both the data processing and analysis scripts. The script allows you to first run the data processing and data analysis files separately. For example, in line 18 and 19, if you keep RUN_CODE_CLEAN_DATA <- T RUN_CODE_ANALYSIS <- F, it would run only the data cleaning scripts within the master script. Similarly, to run the analysis, switch the TRUE and FALSE options. Scripts to be review are broken down as follows: <br>
+2. ```morocco_viirs_master``` Within the sub-folder “Code”, the master script runs both the data processing and analysis scripts. The script allows you to first run the data processing and data analysis files separately. For example, in line 18 and 19, if you keep RUN_CODE_CLEAN_DATA <- T RUN_CODE_ANALYSIS <- F, it would run only the data cleaning scripts within the master script. Similarly, to run the analysis, switch the TRUE and FALSE options. Scripts included in this package are broken down as follows: <br>
   
 Code/01_prepare_gridded_set
 1. ```01_prepare_gridded_set/01_prep_grids``` 
