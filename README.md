@@ -4,9 +4,9 @@
 The code in this replication package constructs the analysis file from 5 external publicly available data sources (GADM, VIIRS, OSM, Inland Water Bodies, and NDVI) using R. Two master files run all of the code to generate the data for the 4 figures and 2 tables in the paper. 
 
 ## Project Description 
-The project uses nighttime lights imagery in conjunction with a combination of externally available datasets mentioned above to evaluate the impact of road upgrades of two major highways in Morocco. The two project roads are : 
+The project uses nighttime lights imagery in conjunction with a combination of externally available datasets mentioned above to evaluate the impact of road upgrades of two major highways in Morocco. The sample consists of all the area within 20kms of each of the project highways. The two project roads are : 
 1. El-Jadida – Safi Highway 
-2. Khouribga – Benimellal Highway The sample consists of all the area within 20kms of each of the project highways. 
+2. Khouribga – Benimellal Highway 
 
 The final analysis is conducted on two datasets : 
 1. El-Jadida-Safi Grid: Pixel-level (resolution 750m) data around the El-Jadida-Safi highway within a 20km buffer of the road 
