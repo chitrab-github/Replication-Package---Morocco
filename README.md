@@ -54,7 +54,7 @@ Code/ 02_analysis <br>
 2. ```02_analysis /02_viirs_figures_khouribga_benimellal.R``` 
 3. ```02_analysis/03_final_analysis_khouribga_eljadida.R```
 
-**The master script ```morocco_viirs_master``` runs all the scripts**. Since there are two project roads, the master script needs to be run twice. GRID_SAMPLE within the master script allows you to choose which project you want to run. Thus, in this code review, *you would be reviewing 12 scripts, 9 in preparing the gridded dataset, and 3 in analysis.* <br>
+**The master script ```morocco_viirs_master``` runs all the scripts**. Since there are two project roads, the master script needs to be run twice. GRID_SAMPLE within the master script allows you to choose which project you want to run. Thus, in this package, *includes 12 scripts, 9 in preparing the gridded dataset, and 3 in analysis.* <br>
 
 ## Outputs
 The code generates four figures <br>
